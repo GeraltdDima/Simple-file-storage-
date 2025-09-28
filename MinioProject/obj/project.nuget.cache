@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "ELxRDDRtdCA=",
+  "success": true,
+  "projectFilePath": "/home/dima/Projects/MinioProject/MinioProject.csproj",
+  "expectedPackageFiles": [
+    "/home/dima/.nuget/packages/communitytoolkit.highperformance/8.4.0/communitytoolkit.highperformance.8.4.0.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.aspnetcore.openapi/9.0.9/microsoft.aspnetcore.openapi.9.0.9.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.4/microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.4/microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.logging/9.0.4/microsoft.extensions.logging.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.4/microsoft.extensions.logging.abstractions.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.options/9.0.4/microsoft.extensions.options.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.extensions.primitives/9.0.4/microsoft.extensions.primitives.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/dima/.nuget/packages/minio/6.0.5/minio.6.0.5.nupkg.sha512",
+    "/home/dima/.nuget/packages/system.io.hashing/9.0.4/system.io.hashing.9.0.4.nupkg.sha512",
+    "/home/dima/.nuget/packages/system.reactive/6.0.1/system.reactive.6.0.1.nupkg.sha512",
+    "/home/dima/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
