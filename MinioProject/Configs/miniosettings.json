@@ -1,0 +1,8 @@
+{
+  "Minio": {
+    "Endpoint": "localhost:9000",
+    "AccessKey": "admin",
+    "SecretKey": "03tnXWwPyi",
+    "UseSSL": false
+  }
+}

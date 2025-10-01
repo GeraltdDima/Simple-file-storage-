@@ -11,7 +11,19 @@ namespace Extensions.ServiceCollectionExtensions
                 .AddScoped<IDownloadFactory, DownloadFactory>()
                 .AddScoped<IGetObjectArgsFactory, GetObjectArgsFactory>()
                 .AddScoped<IPutObjectArgsFactory, PutObjectArgsFactory>()
-                .AddScoped<IUploadFactory, UploadFactory>();
+                .AddScoped<IUploadFactory, UploadFactory>()
+                .AddScoped<IMigrationFactory, MigrationFactory>()
+                .AddScoped<IEmailConfirmFactory, EmailConfirmFactory>()
+                .AddScoped<IRefreshTokenFactory, RefreshTokenFactory>()
+                .AddScoped<IAccessTokenFactory, AccessTokenFactory>()
+                .AddScoped<IClaimsFactory, ClaimsFactory>()
+                .AddScoped<IRegisterFactory, RegisterFactory>()
+                .AddScoped<IRoleFactory, RoleFactory>()
+                .AddScoped<ICookieOptionsFactory, CookieOptionsFactory>()
+                .AddScoped<ICookieFactory, CookieFactory>()
+                .AddScoped<ILoginFactory, LoginFactory>()
+                .AddScoped<ISignalRMessageFactory, SignalRMessageFactory>()
+                .AddScoped<IJwtSettingsFactory, JwtSettingsFactory>();
             
             return services;
         }

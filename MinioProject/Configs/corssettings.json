@@ -1,0 +1,10 @@
+{
+  "Cors": {
+    "Policies": [
+      {
+        "PolicyName": "FrontendOnly",
+        "Origins": [ "http://localhost:3000" ]
+      }
+    ]
+  }
+}

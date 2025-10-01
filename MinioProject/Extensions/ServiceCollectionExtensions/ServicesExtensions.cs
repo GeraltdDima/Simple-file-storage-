@@ -8,7 +8,13 @@ namespace Extensions.ServiceCollectionExtensions
         {
             services
                 .AddScoped<IBucketsService, BucketsService>()
-                .AddScoped<IMinioService, MinioService>();
+                .AddScoped<IMinioService, MinioService>()
+                .AddScoped<IDataBaseService, DataBaseService>()
+                .AddScoped<IJwtService, JwtService>()
+                .AddScoped<ICookieService, CookieService>()
+                .AddScoped<IAuthService, AuthService>()
+                .AddScoped<ISignalRService, SignalRService>()
+                .AddScoped<ISmtpService, SmtpService>();
             
             return services;
         }
